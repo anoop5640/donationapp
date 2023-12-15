@@ -102,7 +102,7 @@ function App() {
   return (
     <div>
       <h1>Make Donation!!</h1>
-      <p>Balance: {balance} ETH</p>
+      <p>Total Donated: {balance} ETH</p>
       <input
         type="text"
         value={donationAmount}
